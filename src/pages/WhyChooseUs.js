@@ -7,7 +7,7 @@ export const WhyChooseUs = () => {
   const { id } = useParams();
   console.log(id);
 
-  return id === id ? (
+  return id === whyChooseUsPagesDetail.id ? (
     <div className="bg-slate-200 flex flex-row">
       {whyChooseUsPagesDetail.map((detail) => {
         // return id === detail.id ? <p>succs</p> : <p>no</p>;
