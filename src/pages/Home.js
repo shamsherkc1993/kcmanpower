@@ -4,7 +4,6 @@ import mainimage from "../assets/main.png";
 import Card from "../components/Card";
 import Slider from "react-slick";
 import cardDetail from "../cardDetail";
-import { WhyChooseUs } from "./WhyChooseUs";
 
 export const Home = () => {
   let carouselList = cardDetail;
